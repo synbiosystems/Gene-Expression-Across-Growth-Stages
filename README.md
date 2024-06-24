@@ -22,3 +22,5 @@ this file contains the FL/OD data that has been processed
 GEAGS_parameters.txt: 
 this file contains all the parameters used in the CRN model 
 
+GEAGS_062124_clean.csv: 
+This file has all the parameters including the Initial conditions as an array, can be easily loaded into GEAGS_model_comparison_biocrnpyler_clean.ipynb
