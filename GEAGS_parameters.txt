@@ -1,0 +1,48 @@
+mechanism_id	part_id	param_name	param_val	comments	unit
+bacterial_transcription		k_tx_1b	0.0506	assuming 10ms to diffuse across 1um (characteristic cell size)	unit
+bacterial_transcription		k_tx_1u	13.66	"""90% binding"""	unit
+bacterial_transcription		k_tx_2b	0.000197944	add comment here	unit
+bacterial_transcription		k_tx_2u	0.05461	add comment here	unit
+bacterial_transcription		k_tx_3	0.00232	add comment here	unit
+		k_tx_4b	2.5497	add comment here	unit
+		k_tx_4u	181.72	add comment here	unit
+bacterial_transcription		k_rnap	0.024963	add comment here	unit
+bacterial_transcription		rnap_min	199.4	add comment here	unit
+bacterial_transcription		k_sigma	0.1	add comment here	unit
+bacterial_transcription		sigma_min	0.1	add comment here	unit
+		n	5.5	add comment here	unit
+bacterial_translation		k_tl_1b	0.453	add comment here	unit
+bacterial_translation		k_tl_1u	69930.0		add comment here	unit
+bacterial_translation		k_tl_2	39960.0	add comment here	unit
+bacterial_translation		k_tl_3	9.958	add comment here	unit
+bacterial_translation		k_tl_4	590.88		add comment here	unit
+bacterial_translation		k_tl_5	138.88	add comment here	unit
+bacterial_translation		k_tl_6u	742.71		add comment here	unit
+bacterial_translation		k_tl_6b	0.00197		add comment here	unit
+bacterial_translation		k_tl_7	3.765	add comment here	unit
+bacterial_translation		b_tl_7	1.17		add comment here	unit
+bacterial_translation		k_tl_8	0.1	add comment here	unit
+bacterial_translation		P_max	31104.0	add comment here	unit
+bacterial_translation		b_tl_8	0.5	add comment here	unit
+		k_tl_11	0.0005	add comment here	unit
+bacterial_translation		k_tRNA	0.0109	add comment here	unit
+bacterial_translation		tRNA_min	106.41	add comment here	unit
+bacterial_translation		k_Et	0.02099	add comment here	unit
+bacterial_translation		Et_min	160.8	add comment here	unit
+bacterial_translation		k_ribo	0.0055	add comment here	unit
+bacterial_translation		ribo_min	173.15	add comment here	unit
+bacterial_translation		k_protease	0.01603749	add comment here	unit
+bacterial_translation		protease_min	175.9651	add comment here	unit
+bacterial_translation		k_tl_12	515.476	add comment here	unit
+		k_tl_9	0.1007	add comment here	unit
+		k_tl_10	0.001	add comment here	unit
+		a_tl_10	4.000000e-01		add comment here	unit
+		k_tl_13b	6.6885		add comment here	unit
+		k_tl_13u	2544.593		add comment here	unit
+		r_dil	1.85	add comment here	unit
+mrna_degradation		b_tx_4u	1	add comment here	unit
+mrna_degradation		n	5.5	add comment here	unit
+		k_tx_5	1.881	add comment here	unit
+logistic_cell_growth		k	0.015781	cell growth rate	unit
+logistic_cell_growth		c_max	503666666.6666667	maximum growth capacity	dimensionless
+logistic_cell_growth		c0	6666666.67	initial cell seeding count	dimensionless
