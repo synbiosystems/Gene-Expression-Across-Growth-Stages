@@ -88,7 +88,7 @@ class LogisticPositive(Propensity):
         return rate_formula
     
 # Create Propensity Class
-# decrease_linear_growth Propensity 
+# Dilution rate Propensity        
 
 class DilutionRate(Propensity):
     def __init__(self, k: float, c: Species, c_max: float, x : Species):
@@ -741,7 +741,7 @@ class five_species_source(Propensity):
     
 
 # Create Propensity Class
-# decrease_linear_growth_basal Propensity 
+# Dilution rate with basal coefficient Propensity 
 
 class DilutionRate_basal(Propensity):
     def __init__(self, k: float, c: Species, c_max: float, x : Species, b : float):
