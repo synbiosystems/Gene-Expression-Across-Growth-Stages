@@ -17,8 +17,8 @@ bacterial_translation		k_tl_2	39960.0	Rate of dephosphorylation of Amino acid-tR
 bacterial_translation		k_tl_3	9.958	Binding rate of Amino acid-tRNA synthetase complex and tRNA	1/nM.min
 bacterial_translation		k_tl_4	590.88		Rate of formation of active Amino acid-tRNA synthetase - tRNA complex 	1/min
 bacterial_translation		k_tl_5	138.88	Rate of formation of Aminoacylated tRNA 	1/min
-bacterial_translation		k_tl_6u	742.71		Binding rate of Aminoacylated tRNA, mRNA and Ribosome to form transaltion inititation complex	1/nM^2.min
-bacterial_translation		k_tl_6b	0.00197		Unbinding rate of Translation initiation complex	1/min
+bacterial_translation		k_tl_6b	0.00197		Binding rate of Aminoacylated tRNA, mRNA and Ribosome to form transaltion inititation complex	1/nM^2.min
+bacterial_translation		k_tl_6u	742		Unbinding rate of Translation initiation complex	1/min
 bacterial_translation		k_tl_7	3.765	Translation elongation rate	1/min
 bacterial_translation		b_tl_7	1.17		Basal translation elongation rate fraction	dimensionless
 bacterial_translation		k_tl_8	0.1	Protein folding rate	1/min
