@@ -1,4 +1,4 @@
-This folder contains the three effective models that are used in the paper 
+## This folder contains the three effective models that are used in the paper 
 The files named: 
 (1) Effective_model_equations.py
 (2) Effective_reduced_model_equations.py
