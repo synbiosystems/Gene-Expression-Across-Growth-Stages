@@ -77,7 +77,7 @@ def all_steps(param, degtag, tspan, N_steps = 1000):
         # Protein degradation rate
         d_p = d_p * f
         d_dil = d_dil * (1 - f)
-        d_tag = d_tag * (y + b_tag) * (Pt /(Kp + Pt))
+        d_tag = d_tag * (y + b_tag) 
        
         # Amino acid replenishment rate 
         k_rep = k_rep * y 
@@ -171,7 +171,7 @@ def all_steps(param, degtag, tspan, N_steps = 1000):
         # Protein degradation rate
         d_p = d_p * f
         d_dil = d_dil * (1 - f)
-        d_tag = d_tag * (y + b_tag) * (Pt /(Kp + Pt))
+        d_tag = d_tag * (y + b_tag) 
        
         # Amino acid replenishment rate 
         k_rep = k_rep * y 

@@ -1,7 +1,7 @@
 ## File contains  each ODE to be solved step by step to get the effective model 
 
 # Here we show how to write the equations for the hybrid-CRN model 
-# We have divided translation into 3 CRNs: (1) Amino acid charging (2) Transslation inititaion 
+# We have divided translation into 3 CRNs: (1) Amino acid charging (2) Translation inititaion 
 # and (3) Translation elongation
 # 
 
@@ -80,7 +80,7 @@ def all_steps(param, degtag, tspan, N_steps = 1000):
         # Protein degradation rate
         d_p = d_p * f
         d_dil = d_dil * (1 - f)
-        d_tag = d_tag * (y + b_tag) * (Pt /(Kp + Pt))
+        d_tag = d_tag * (y + b_tag) 
        
         # Amino acid replenishment rate 
         k_rep = k_rep * y 
@@ -178,7 +178,7 @@ def all_steps(param, degtag, tspan, N_steps = 1000):
         # Protein degradation rate
         d_p = d_p * f
         d_dil = d_dil * (1 - f)
-        d_tag = d_tag * (y + b_tag) * (Pt /(Kp + Pt))
+        d_tag = d_tag * (y + b_tag) 
        
         # Amino acid replenishment rate 
         k_rep = k_rep * y 

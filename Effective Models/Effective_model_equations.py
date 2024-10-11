@@ -14,7 +14,7 @@ def all_steps(param, degtag, tspan, N_steps = 1000):
     C0 = p['C_0']
     N_plasmid = 100  # Plasmid copy number for a high copy plasmid
     
-
+ 
 
     def step_blank(x, t, param, degtag = 1):
 
@@ -69,13 +69,13 @@ def all_steps(param, degtag, tspan, N_steps = 1000):
         # Protein degradation rate
         d_p = d_p * f
         d_dil = d_dil * (1 - f)
-        d_tag = d_tag * (y + b_tag) * (Pt /(Kp + Pt))
+        d_tag = d_tag * (y + b_tag) 
        
         # Amino acid replenishment rate 
         k_rep = k_rep * y 
 
         # Translation rate 
-        k_tl = k_tl * (1 - f + b_tl) * y
+        k_tl = k_tl * (1 - f + b_tl) * y 
         
 
         dMdt = beta_m - (d_m + d_dil) * M
@@ -147,13 +147,13 @@ def all_steps(param, degtag, tspan, N_steps = 1000):
         # Protein degradation rate
         d_p = d_p * f
         d_dil = d_dil * (1 - f)
-        d_tag = d_tag * (y + b_tag) * (Pt /(Kp + Pt))
+        d_tag = d_tag * (y + b_tag) 
        
         # Amino acid replenishment rate 
         k_rep = k_rep * y 
 
         # Translation rate 
-        k_tl = k_tl * (1 - f + b_tl) * y
+        k_tl = k_tl * (1 - f + b_tl) * y 
         
 
         dMdt = beta_m - (d_m + d_dil) * M
