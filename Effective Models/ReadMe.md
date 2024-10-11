@@ -18,3 +18,5 @@ The files names:  <br>
 Are the parameter arrays that can be loaded to run the models  <br>  <br>
 
 GEAGS_run_data_720min_deg.csv and GEAGS_run_data_720min_no_deg.csv are the output from CRN, truncated to first 720 minutes for our observation 
+
+Effective_model_comparison.ipynb loads all the models run data and compares them with the CRN and the experimental data
