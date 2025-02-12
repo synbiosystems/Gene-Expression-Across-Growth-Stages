@@ -1,0 +1,23 @@
+,Param name,Param
+0,k_tx,2.6
+1,d_m,0.1
+2,k_tlaa_b,1.0
+3,k_tlaa_u,100.0
+4,k_tli_b,0.07
+5,k_tli_u,600.0
+6,k_tl,0.095
+7,d_tag,0.14
+8,b_tag,0.1
+9,d_p,0.0008
+10,k_fold,0.27
+11,b_fold,1.0
+12,k_rep,210.0
+13,k_lag,0.0015
+14,A_0,80000.0
+15,tRNA_max,600.0
+16,Ribo_max,150.0
+17,n_gamma_resources,0.5
+18,n_gamma_rate,0.5
+19,C_max,503666666.6
+20,C_0,6666666.67
+21,k_gr,0.015781
