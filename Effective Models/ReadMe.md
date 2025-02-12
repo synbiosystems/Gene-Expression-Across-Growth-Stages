@@ -9,7 +9,7 @@ The files named:  <br>
 (1) Effective_model_implimentation.ipynb  <br>
 (2) Effective_CRN_hybrid_model_1_implimentation.ipynb  <br>
 (3) Effective_CRN_hybrid_model_2_implimentation.ipynb  <br>
-Are the files with the LMFIT parameter objects to show how to run the models and tune their parameters using the LMFIT object  <br>  <br>
+Are the file that loads the models and runs them, compares them with the experimental data  <br>  <br>
 
 The files names:  <br>
 (1) Effective_model_param_file.csv  <br>
