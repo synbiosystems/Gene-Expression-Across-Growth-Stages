@@ -17,6 +17,6 @@ The files names:  <br>
 (3) Effective_CRN_hybrid_model_2_param_file.csv  <br>
 Are the parameter arrays that can be loaded to run the models  <br>  <br>
 
-simulation_run_data_720min_deg.csv and simulation_run_data_720min_no_deg.csv are the output from CRN, truncated to the first 720 minutes for our observation 
+The simulation_run_data folder contains the data from the CRN simulations as well as effective model simulations, used for comparison=
 
 Effective_model_comparison.ipynb loads all the run data from all the models and compares them with the CRN and the experimental data
