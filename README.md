@@ -22,5 +22,5 @@ This file contains the FL/OD data that has been processed
 BioCRNpyler_parameters.txt: 
 This file contains all the parameters used in the CRN model, including the respective units and their descriptions. This file is used to build the model. The parameter values can be modified using bioscrapes functions, which are demonstrated in the BioCRNpyler_Model_Comparison.ipynb file. 
 
-model_param_file_070824.csv: 
+model_param_file_030525.csv: 
 This file has all the parameters, including the Initial conditions, as an array, which can be easily loaded into BioCRNpyler_Model_Comparison.ipynb to modify the existing parameters. 
