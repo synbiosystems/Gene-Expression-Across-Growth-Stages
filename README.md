@@ -4,7 +4,8 @@ All the files required to run the GEAGS CRN model and replicate different result
 ## Installation: 
 To run the files in the repository, user can clone this repository via git. <br>
 Once cloned, we recommend installing the dependencies in a new Virtual Environment as some of the package versions may not be the latest. <br> 
-After setting up the environment, user can install the dependencies using the command: pip install -r requirements.txt
+After setting up the environment, user can install the dependencies using the terminal command: <br> 
+pip install -r requirements.txt
 
 ## File Information:
 
