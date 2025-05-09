@@ -1,5 +1,5 @@
-# __G__ene __E__xpression __A__cross __G__rowth __S__tages
-All the files required to run the GEAGS CRN model and replicate different results published in the paper. 
+# Gene Expression Across Growth Stages (GEAGS)
+This repository contains all the files required to run the GEAGS framework and replicate different results published in the paper. 
 
 ## Installation: 
 To run the files in the repository, user can clone this repository via git. <br>
