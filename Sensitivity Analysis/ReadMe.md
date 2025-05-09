@@ -1,7 +1,7 @@
 ### File Information: 
 
 -- __Sensitivity_analysis_degtag.ipynb__ and __Sensitivity_analysis_no_degtag.ipynb__ : Jupyter notebooks used for generating the sensitivity matrices (SSMs) using the Bioscrape toolbox  <br> 
-Created two separate files so that they can be run in parallel, as the estimation of the sensitivity matrix can be computationally expensive depending on the simulation step size. Running each file takes about 90 minutes on a Mac Mini M2 Pro <br>
+Created two separate files so that they can be run in parallel, as the estimation of the sensitivity matrix can be computationally expensive depending on the simulation step size. Running each file takes about 100 minutes on a Mac Mini M2 Pro <br>
 These notebooks export the SSMs as a numpy datafile. The numpy datafile used in the paper figure is large and GitHub doesn't support the upload of files of that size, so please refer to the data provided with the pubilcation if needed.  <br> <br>
 -- __Sensitivity_matrix_data_export_utility.ipynb__ : Notebook to extract data from the datafiles and export it for plotting purposes  <br> <br>
 -- __simulation_data__ : Contains the simulation data files are used to normalize the parameters modified by RMFs in the SSM matrix. Also, this is the folder where the SSM datafile is exported to. <br> <br>
