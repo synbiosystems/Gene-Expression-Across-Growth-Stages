@@ -1,6 +1,11 @@
 # GEAGS-Files
 All the files required to run the GEAGS CRN model 
 
+## Installation: 
+To run the files in the repository, user can clone this repository via git. <br>
+Once cloned, we recommend installing the dependencies in a new Virtual Environment as some of the package versions may not be the latest. <br> 
+After setting up the environment, user can install the dependencies using the command: pip install -r requirements.txt
+
 BioCRNpyler_Propensities.py: 
 This file contains all the propensities that are used in the CRN. BioCRNpyler_Mechanisms.py imports them from here to define the mechanisms 
 
@@ -24,5 +29,3 @@ This file contains all the parameters used in the CRN model, including the respe
 
 model_param_file_030525.csv: 
 This file has all the parameters, including the Initial conditions, as an array, which can be easily loaded into BioCRNpyler_Model_Comparison.ipynb to modify the existing parameters.
-
-Files haveing "simulation run data" in their names are the exported data from simulations of the model, also used in making figure for publication
