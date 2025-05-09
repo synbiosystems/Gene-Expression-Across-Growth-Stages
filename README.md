@@ -1,4 +1,4 @@
-# GEAGS-Files
+# __G__ene __E__xpression __A__cross __G__rowth __S__tages
 All the files required to run the GEAGS CRN model and replicate different results published in the paper. 
 
 ## Installation: 
