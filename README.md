@@ -2,7 +2,10 @@
 This repository contains all the files required to run the GEAGS framework and replicate different results published in the paper. 
 
 ## Installation: 
-To run the files in the repository, clone this repository via git. <br>
+To run the files in the repository, clone this repository via git. into your computer using the command:<br>
+```
+git clone https://github.com/hariKRN2000/Gene-Expression-Across-Growth-Stages.git
+```
 Once cloned, we recommend installing the dependencies in a new virtual environment (with Python version greater than 3.9). <br> 
 Example code to set up a virtual environment in desired directory using terminal command: 
 ```
