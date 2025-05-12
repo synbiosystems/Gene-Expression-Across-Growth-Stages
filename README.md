@@ -4,6 +4,14 @@ This repository contains all the files required to run the GEAGS framework and r
 ## Installation: 
 To run the files in the repository, clone this repository via git. <br>
 Once cloned, we recommend installing the dependencies in a new virtual environment (with Python version greater than 3.9). <br> 
+Example code to set up a virtual environment in desired directory using terminal command: 
+```
+python -m venv <environment name>
+```
+And activate the environment using: 
+Linux/macOS: Run ```source <environment_name>/bin/activate``` <br>
+Windows: Run ```<environment_name>\Scripts\activate.bat``` <br>
+This command activates the environment and modifies your shell's path to point to the virtual environment's Python interpreter and pip. <br>
 After setting up the environment, install the dependencies using the terminal command: 
 ```
 pip install -r requirements.txt
@@ -12,10 +20,16 @@ To install the version of BioCRNpyler used for the project, use the terminal com
 ```
 pip install biocrnpyler==1.1.1
 ```
-For the local sensitivity analysis, a part of the bioscrape package has been modified. The modified implementation of bioscrape can be installed using the command: <br>
+For the local sensitivity analysis, a part of the bioscrape package has been modified. The modified implementation of bioscrape can be installed using the following steps: <br>
+Fork the modified implementation from the repository using the command:
 ```
-git+https://github.com/hariKRN2000/bioscrape/tree/GEAGS_mod.git@main#egg=bioscrape
+git clone https://github.com/hariKRN2000/bioscrape
 ```
+Install the package in the virtual environment using: 
+```
+pip install -e bioscrape
+```
+For the above step, make sure you have a C++ compiler installed on your computer. Refer to the [bioscrape installation wiki](https://github.com/biocircuits/bioscrape/wiki/Installation) for more information.
 All packages are openly available and can be easily installed and maintained using openly available IDEs.  
 
 ## File Information:
