@@ -1,11 +1,5 @@
-# All the dependencies are listed here with their versions used in the project
-# I recommend installing all the requirements in a new environment
-numpy==1.24.3
+numpy<=1.26.4
 pandas==1.5.3
-matplotlib==3.7.1
-scipy==1.10.1
+matplotlib<=3.7.1
+scipy<=1.10.1
 lmfit==1.2.2
-biocrnypler==1.1.1
-# Install the modified bioscrape implementation from the forked repository
-# To install the original bioscrape package : git+https://github.com/biocircuits/bioscrape/tree/master.git@main#egg=bioscrape
-git+https://github.com/hariKRN2000/bioscrape.git@main#egg=bioscrape
