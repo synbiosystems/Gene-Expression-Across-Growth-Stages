@@ -8,7 +8,7 @@ After setting up the environment, install the dependencies using the terminal co
 ```
 pip install -r requirements.txt
 ```
-To install BioCRNpyler, use the terminal command: 
+To install the version of BioCRNpyler used for the project, use the terminal command: 
 ```
 pip install biocrnpyler==1.1.1
 ```
