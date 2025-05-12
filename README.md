@@ -23,6 +23,7 @@ To install the version of BioCRNpyler used for the project, use the terminal com
 ```
 pip install biocrnpyler==1.1.1
 ```
+More information on BioCRNpyler can be found in the [original package repository](https://github.com/BuildACell/bioCRNpyler). <br>
 For the local sensitivity analysis, a part of the bioscrape package has been modified. The modified implementation of bioscrape can be installed using the following steps: <br>
 Fork the modified implementation from the repository using the command:
 ```
