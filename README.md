@@ -8,7 +8,14 @@ After setting up the environment, install the dependencies using the terminal co
 ```
 pip install -r requirements.txt
 ```
-
+To install BioCRNpyler, use the terminal command: 
+```
+pip install biocrnpyler==1.1.1
+```
+For the local sensitivity analysis, a part of the bioscrape package has been modified. The modified implementation of bioscrape can be installed using the command: <br>
+```
+git+https://github.com/hariKRN2000/bioscrape/tree/GEAGS_mod.git@main#egg=bioscrape
+```
 All packages are openly available and can be easily installed and maintained using openly available IDEs.  
 
 ## File Information:
